@@ -6,3 +6,36 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+body, div {
+  background-color: #000080;
+  color: white;
+  font-size: 14px;
+}
+
+select {
+  padding: 7px;
+}
+
+#drinkSelected, input{
+  font-size: 18px;
+}
+
+.topnav, link, link:active, link:visited {
+  color: #DDD;
+  text-underline: none;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: #ddd;
+}
+
+th, tr, td {
+  color: #ddd;
+}
+
+td, a, a:active, a:visited {
+  color: #ddd
+}
